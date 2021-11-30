@@ -10,11 +10,11 @@ public class MainSumOfDigits {
         int digitsSum = 0;
 
         while (number !=0) {
-            System.out.println("number = " + number);
+            System.out.println("Число = " + number);
             int currentDigit = number % 10;
-            System.out.println("current digit = " + currentDigit);
+            System.out.println("текущее число = " + currentDigit);
             digitsSum = digitsSum + currentDigit;
-            System.out.println("digit sum = " + digitsSum);
+            System.out.println("сумма чисел = " + digitsSum);
             number = number / 10;
         }
     }
